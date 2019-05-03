@@ -8,14 +8,14 @@ body{
 }
 
 header{
-    background: cornflowerblue;
+    background: rgb(9, 22, 46);
     width: 100%;
     border-block-end: solid blue 2px;
 }
 
 .title{
     float: left;
-    background: rebeccapurple;
+    background: rgb(31, 8, 53);
     padding: 15px;
     margin: 0;
     margin-left:200px;
@@ -97,6 +97,22 @@ img{
     margin-right: 500px;
 }
 
+@media only screen and (max-width: 980px) { 
+    img {}
+ 
+      
+    }
+  
 
+  @media only screen and (max-width: 768px) {
+     
+      
+    }
+  
 
-
+  @media only screen and (max-width: 640px) 
+ { 
+    
+      
+    
+  }
