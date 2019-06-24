@@ -32,9 +32,9 @@ opacity: 0.4;
 
 
 section{
-    word-wrap: break-word; 
+   
     
-    padding: 30px;
+    padding: 35px;
 }
 
 .content{
@@ -60,7 +60,14 @@ section{
 
 }
 .text1{
-   
+ word-spacing: 2px;
+font-family: fantasy;
+text-align: left;
+word-wrap: break-word; 
+float: left;
+display: inline-flex;
+vertical-align: bottom;
+
    
 }
 
@@ -114,16 +121,7 @@ section{
 
 
 
-.text1{
-    float: left;
-    display: inline-flex;
-   vertical-align: bottom;
 
-}
-.text2{
-    display: inline-flex;
-    vertical-align: top
-}
 
 
 
