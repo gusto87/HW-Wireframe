@@ -1,18 +1,35 @@
 html,
 body{
-    position: relative;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    width: 100%;
-    height: 100%;
-    overflow:visible;
     
   
     font-size: 18px;
 }
+.cover-title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.cover-sub-title{
+    
+    font-style: italic
+}
+.click{
+    color: #007bff
+}
 
+.card{
+    background-color:transparent
+    
+}
+
+.a:hover{background-color: teal}
+
+.card-text{
+    display: inline-block;
+    color: #007bff;
+}
+.card-body{
+    display: inline-block;
+    color: rgb(250, 9, 210)
+}
 
 
 .cover::before{
@@ -29,13 +46,11 @@ z-index: -2;
 opacity: 0.4;
 }
 
-
-
-section{
-   
-    
-    padding: 35px;
+.text-muted{
+    color: blue
 }
+
+
 
 .content{
     border-top: 2px solid black;
@@ -69,6 +84,10 @@ display: inline-flex;
 vertical-align: bottom;
 
    
+}
+
+.card-text1{
+    color: aqua
 }
 
 
@@ -131,10 +150,9 @@ vertical-align: bottom;
 
 footer{
     
-    background: -webkit-linear-gradient
-    rgba(255, 255, 255, 0) 0%,
-    rgb(137, 16, 161) 100%;  
-    position: fixed;
+   
+   
+    position: relative;
     bottom:0;
     width:100%;
     height: 60px;
@@ -142,9 +160,7 @@ footer{
 }
 .center{
     text-align: center;
-    color: white;
-    font-size: 7px;
-    bottom: 0;
+   
 } 
 
 img{
