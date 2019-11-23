@@ -20,7 +20,7 @@ body{
     
 }
 
-.a:hover{background-color: teal}
+ 
 
 .card-text{
     display: inline-block;
@@ -47,7 +47,7 @@ opacity: 0.4;
 }
 
 .text-muted{
-    color: blue
+    color: aqua
 }
 
 
@@ -143,7 +143,9 @@ vertical-align: bottom;
     height: 86%;
 }
 
-
+h4{
+    word-spacing: 20px;
+}
 
 
 
